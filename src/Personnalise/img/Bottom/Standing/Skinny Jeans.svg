@@ -1,0 +1,12 @@
+<svg width="900" height="717" viewBox="0 0 900 717" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Bottom/Standing/Skinny Jeans">
+<path id="Leg" fill-rule="evenodd" clip-rule="evenodd" d="M384 0L492.765 381.681L572.121 663H630L545.673 0H384Z" fill="#191847"/>
+<path id="Leg_2" fill-rule="evenodd" clip-rule="evenodd" d="M354.913 0C352.397 196.723 343.819 304.021 341.177 321.894C338.536 339.767 298.597 453.469 221.359 663H281.318C379.647 461.991 434.537 348.289 445.988 321.894C457.438 295.499 492.776 188.201 546 0H354.913Z" fill="#2F3676"/>
+<g id="Left Shoe">
+<path id="Shoe" fill-rule="evenodd" clip-rule="evenodd" d="M216 717L219 654L282 654C326.809 685.5 399 705 399 705V717H285L246 711V717H216Z" fill="#191847"/>
+</g>
+<g id="Right Shoe">
+<path id="Shoe_2" fill-rule="evenodd" clip-rule="evenodd" d="M564 717L567 654L630 654C674.809 685.5 747 705 747 705V717H633L594 711V717H564Z" fill="#191847"/>
+</g>
+</g>
+</svg>

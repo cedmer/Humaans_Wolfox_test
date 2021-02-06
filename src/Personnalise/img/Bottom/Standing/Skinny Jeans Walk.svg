@@ -1,0 +1,12 @@
+<svg width="900" height="717" viewBox="0 0 900 717" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Bottom/Standing/Skinny Jeans Walk">
+<path id="Leg" fill-rule="evenodd" clip-rule="evenodd" d="M384 0L528.245 381.681L629.35 663H687L548.021 0L384 0Z" fill="#1F28CF"/>
+<path id="Leg_2" fill-rule="evenodd" clip-rule="evenodd" d="M348.35 0C346.782 130.963 347.915 307.282 344.262 315.446C340.609 323.609 117 501.472 117 501.472L146.715 552C146.715 552 412.19 380.801 425.763 357.992C439.335 335.183 507.523 125.289 543 0H348.35Z" fill="#2B44FF"/>
+<g id="Left Shoe">
+<path id="Shoe" fill-rule="evenodd" clip-rule="evenodd" d="M64.7222 535.474L114.911 497.277L155.407 545.538C160.079 600.111 191.545 667.947 191.545 667.947L182.352 675.661L109.075 588.331L88.6021 554.599L84.0059 558.456L64.7222 535.474Z" fill="#191847"/>
+</g>
+<g id="Right Shoe">
+<path id="Shoe_2" fill-rule="evenodd" clip-rule="evenodd" d="M624 717L627 654L690 654C734.809 685.5 807 705 807 705V717H693L654 711V717H624Z" fill="#191847"/>
+</g>
+</g>
+</svg>
