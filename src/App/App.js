@@ -4,7 +4,7 @@ import Personnalise from "../Personnalise/Personnalise";
 function App() {
   return (
     <div className="App">
-        <Personnalise></Personnalise>
+        <Personnalise/>
     </div>
   );
 }

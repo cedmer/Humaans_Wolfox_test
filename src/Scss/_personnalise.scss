@@ -17,9 +17,6 @@
         width: 43.5%;
         padding-left: 3.45em;
       }
-      .standing_head {
-        padding-left: 5.45em;
-      }
 
       &_body {
         position: relative;
@@ -28,16 +25,30 @@
         margin-bottom: -11em;
         margin-top: -5em;
       }
-      .standing_body{
-        width: 100%;
-        margin-bottom: -10em;
-        margin-top: -3.5em;
-      }
 
       &_bottom {
         padding-top: 3em;
         height: 239px;
         width: 100%;
+      }
+
+      .standing_head {
+        padding-left: 5.45em;
+      }
+
+      .standing_body{
+        width: 100%;
+        //margin-bottom: -11em;
+        margin-top: -3.5em;
+      }
+      .long_coat{
+        margin-top: -2.5em;
+      }
+      .long_head{
+        margin-top: -3.5em;
+      }
+      .Sitting_head_coat{
+        margin-top: -4.5em;
       }
     }
   }
