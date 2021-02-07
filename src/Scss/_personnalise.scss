@@ -1,16 +1,33 @@
 .personalise{
+  background-color: #E6F9FB;
+  padding-bottom: 3em;
+  font-family: Georgia;
+  h1{
+    font-size: 4rem;
+  }
   .human_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
+    position: relative;
+
+    .circle{
+      background-color: aquamarine;
+      border-radius: 50%;
+      height: 18.75rem;
+      width: 18.75rem;
+      margin-top: 4.6875em;
+      position: absolute;
+    }
 
     .human {
       display: flex;
       flex-direction: column;
-      height: 300px;
-      width: 300px;
+      height: 18.75rem;
+      width: 18.75rem;
       padding-bottom: 10em;
+      position: relative;
 
       &_head {
         height: 45.3%;
@@ -23,33 +40,37 @@
         height: 85.33%;
         width: 78.2%;
         margin-bottom: -11em;
-        margin-top: -5em;
+        margin-top: -5.5em;
       }
 
       &_bottom {
         padding-top: 3em;
-        height: 239px;
+        height: 14.9375rem;
         width: 100%;
       }
 
-      .standing_head {
-        padding-left: 5.45em;
-      }
-
+      //change style for the body
       .standing_body{
         width: 100%;
-        //margin-bottom: -11em;
         margin-top: -3.5em;
       }
       .long_coat{
         margin-top: -2.5em;
       }
+      //change style for the body
+
+      //change style for the head
+      .standing_head {
+        padding-left: 5.45em;
+      }
       .long_head{
-        margin-top: -3.5em;
+        margin-bottom: -0.5em;
       }
-      .Sitting_head_coat{
-        margin-top: -4.5em;
-      }
+      //change style for the head
+
+      //.Sitting_head_coat{
+      //  margin-top: -4.5em;
+      //}
     }
   }
 }
