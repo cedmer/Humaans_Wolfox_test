@@ -1,0 +1,32 @@
+.Summary{
+  background-color: $lightblue;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+
+  .title_container {
+    text-align: left;
+    width: 90%;
+    .Part{
+      padding: 1.5rem;
+      margin:  3.3rem;
+      border-radius: 10px;
+      background: linear-gradient(90deg, #109FE6 50%, rgba(255, 255, 255, 0) 100%);
+
+      .Title{
+        color: white;
+
+        &:hover{
+          color: black;
+        }
+      }
+      h2{
+        transform: translateX(+20%);
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+
+}

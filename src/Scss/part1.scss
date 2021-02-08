@@ -1,0 +1,46 @@
+.part1 {
+  padding: 1em;
+  background-image: url("../Parts/img/Vector 2.svg");
+  background-repeat:no-repeat;
+  background-position: top;
+
+
+  .title_container{
+    text-align: left;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  .human_text_container {
+    .paragraph{
+      padding-top: 5em;
+      padding-bottom: 0em;
+    }
+    &.invert{
+      flex-direction: row-reverse;
+    }
+    .human {
+
+      &_head {
+        height: 45.3%;
+        width: 43.5%;
+        padding-left: 5.45em;
+      }
+
+      &_body {
+        position: relative;
+        height: 85.33%;
+        width: 100%;
+        margin-bottom: -11em;
+        margin-top: -4.25em;
+      }
+
+      &_bottom {
+        padding-top: 3em;
+        height: 14.9375rem;
+        width: 100%;
+      }
+    }
+  }
+}
+

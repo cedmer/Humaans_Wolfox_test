@@ -1,7 +1,5 @@
 import React , {} from "react";
 import Data from "../Data/data"
-import Vector from "../Landing/img/Vector1.svg"
-
 
 const Landing = () =>{
 
@@ -10,7 +8,7 @@ const Landing = () =>{
                 <div className="title_container">
                     <h1>Find your own style</h1>
                 </div>
-                <div className="container">
+                <div className="human_text_container">
                     <div className="human">
                         <img className={"human_head "} src={require(`../Personnalise/img/Head/Front/svg/${Data.Head[3].pathname}`).default} alt="SVG"/>
                         <img className={"human_body "} src={require(`../Personnalise/img/Body/svg/${Data.Body[4].pathname}`).default} alt="SVG"/>
