@@ -4,7 +4,10 @@
   padding-top: 1em;
   font-family: Georgia;
   h1{
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 1.5rem;
   }
   .human_container {
     display: flex;
@@ -28,7 +31,7 @@
       flex-direction: column;
       height: 18.75rem;
       width: 18.75rem;
-      padding-bottom: 10em;
+      padding-bottom: 8em;
       position: relative;
       margin: 1rem;
 
@@ -77,8 +80,8 @@
     }
   }
   .RandomChange{
-    width: 200px;
-    height: 100px;
+    width: 175px;
+    height: 75px;
     border-radius: 50px;
     border: none;
     background-color: #77D6F4;

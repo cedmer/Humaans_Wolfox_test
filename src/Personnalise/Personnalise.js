@@ -87,7 +87,6 @@ const Personnalise = () =>{
         Data.Head[random_head3].csshead]
 
     return(
-        <div className="container">
             <div className="personalise">
                 <h1>Create your own remix</h1>
                 <h2>Change the hairdos, tops and pants</h2>
@@ -112,7 +111,6 @@ const Personnalise = () =>{
                 </div>
                 <button className="RandomChange" onClick={ ()=>Random()}>Change</button>
             </div>
-        </div>
     )
 }
 export default Personnalise

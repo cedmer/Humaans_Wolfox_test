@@ -1,0 +1,79 @@
+.landing {
+  padding-bottom: 3em;
+  font-family: Georgia;
+
+
+  .title_container{
+    background-image: url("../Landing/img/Vector 1.svg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 23rem;
+    padding: 2rem ;
+    position: relative;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  .container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    .paragraph {
+
+      flex-direction: column;
+      height: 20rem;
+      width: 36.8rem;
+      padding-bottom: 10em;
+      margin: 1rem;
+      text-align: justify;
+
+      .line{
+        width: 18.4rem;
+        border-top: 4px solid #109FE6;
+        margin:0 auto;
+      }
+      h2{
+        font-size: 2rem;
+        text-align: center;
+      }
+      p{
+        font-size: 1.25rem;
+      }
+    }
+      .human {
+        display: flex;
+        flex-direction: column;
+        height: 18.75rem;
+        width: 18.75rem;
+        padding-bottom: 7em;
+        position: relative;
+        margin: 1rem;
+
+        &_head {
+          height: 45.3%;
+          width: 43.5%;
+          padding-left: 3.45em;
+        }
+
+        &_body {
+          position: relative;
+          height: 85.33%;
+          width: 78.2%;
+          margin-bottom: -11em;
+          margin-top: -5.5em;
+        }
+
+        &_bottom {
+          padding-top: 3em;
+          height: 14.9375rem;
+          width: 100%;
+        }
+      }
+    }
+  }
