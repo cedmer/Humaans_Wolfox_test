@@ -5,17 +5,17 @@ import Data from "../Data/data"
 const Personnalise = () =>{
 
     //states variable for the head
-    const [random_head, set_randomhead] = useState(2);
+    const [random_head, set_randomhead] = useState(10);
     const [random_head2, set_randomhead2] = useState(0);
     const [random_head3, set_randomhead3] = useState(0);
 
     //states variables for the body
-    const [random_body, set_randombody] = useState(8);
+    const [random_body, set_randombody] = useState(7);
     const [random_body2, set_randombody2] = useState(0);
     const [random_body3, set_randombody3] = useState(0);
 
     //states variables for the bottom
-    const [random_bottom, set_randombottom] = useState(10);
+    const [random_bottom, set_randombottom] = useState(2);
     const [random_bottom2, set_randombottom2] = useState(0);
     const [random_bottom3, set_randombottom3] = useState(0);
 
@@ -87,11 +87,10 @@ const Personnalise = () =>{
         Data.Head[random_head3].csshead]
 
     return(
-        <div>
-
+        <div className="container">
             <div className="personalise">
                 <h1>Create your own remix</h1>
-                <h2>Change the hairdos,tops and pants</h2>
+                <h2>Change the hairdos, tops and pants</h2>
                 <div className="human_container">
                     <div className="circle"></div>
                         <div className="human">
@@ -99,7 +98,6 @@ const Personnalise = () =>{
                             <img className={"human_body "+verifBody[1]+" "+verifBody[2]} src={require(`../Personnalise/img/Body/svg/${Data.Body[random_body].pathname}`).default} alt="SVG"/>
                             <img className="human_bottom" src={require(`../Personnalise/img/Bottom/${Data.Bottom[random_bottom].position}/svg/${Data.Bottom[random_bottom].pathname}`).default} alt="SVG"/>
                         </div>
-
                         <div className="human">
                             <img className={"human_head "+verifBody2[0]+ " " +verifBody2[3]} src={require(`../Personnalise/img/Head/Front/svg/${Data.Head[random_head2].pathname}`).default} alt="SVG"/>
                             <img className={"human_body "+verifBody2[1]+" "+verifBody2[2]} src={require(`../Personnalise/img/Body/svg/${Data.Body[random_body2].pathname}`).default} alt="SVG"/>
@@ -112,8 +110,8 @@ const Personnalise = () =>{
                         </div>
 
                 </div>
+                <button className="RandomChange" onClick={ ()=>Random()}>Change</button>
             </div>
-            <button onClick={ ()=>Random()}></button>
         </div>
     )
 }
