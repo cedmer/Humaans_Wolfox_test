@@ -1,0 +1,19 @@
+.part2 {
+  .title_container {
+    background: linear-gradient(90deg, #109FE6 0%, rgba(112, 198, 240, 0.596591) 36.46%, rgba(122, 202, 241, 0.557193) 69.27%, rgba(16, 159, 230, 0.5) 91.67%);
+    padding: 2rem;
+    position: relative;
+
+    h1 {
+      font-size: 2.5rem;
+      text-align: left;
+    }
+  }
+  .human_text_container {
+    padding-top: 6rem;
+    background-image: url("../Parts/img/Vector 3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

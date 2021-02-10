@@ -1,5 +1,5 @@
 import React , {useState} from "react";
-import Data from "../Data/data"
+import {Data} from '../Data2/data'
 
 
 const Personnalise = () =>{

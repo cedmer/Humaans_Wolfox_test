@@ -1,6 +1,7 @@
-import React , {} from "react";
-import part1 from "../Data/part1"
-import Data from "../Data/data"
+import React , {useState,useEffect} from "react";
+import {part1} from "../Data2/part1content"
+import {Data} from '../Data2/data'
+
 
 const Part1 = () =>{
 
@@ -11,6 +12,7 @@ const Part1 = () =>{
             </div>
             {part1.Content.map((item) => {
                 return(
+
                     <div className={"human_text_container"+" "+ item.position}>
                         <div className="human">
                             <img className={"human_head "} src={require(`../Personnalise/img/Head/Front/svg/${Data.Head[item.head].pathname}`).default} alt="SVG"/>

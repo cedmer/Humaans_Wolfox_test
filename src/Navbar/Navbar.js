@@ -1,5 +1,5 @@
 import React , { Component} from "react";
-import Nav from "../Data/navbar"
+import {Nav} from "../Data2/navbarcontent"
 import {Link} from 'react-scroll';
 
 const Navbar = () =>{

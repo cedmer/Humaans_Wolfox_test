@@ -4,6 +4,8 @@ import Navbar from "../Navbar/Navbar";
 import Landing from "../Landing/Landing";
 import Summary from "../Summary/Summary";
 import Part1 from "../Parts/Part1";
+import Example from "../Parts/Example";
+import Part2 from "../Parts/Part2";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Landing/>
         <Summary/>
         <Part1/>
+        <Part2/>
+        <Example/>
         <Personnalise/>
     </div>
   );

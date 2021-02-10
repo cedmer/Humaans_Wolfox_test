@@ -1,5 +1,5 @@
 import React , {} from "react";
-import Data from "../Data/data"
+import {Data} from "../Data2/data"
 
 const Landing = () =>{
 

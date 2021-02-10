@@ -8,7 +8,7 @@ const Summary = () =>{
         <div className="Summary" >
             <div className="title_container">
                 <div className="Part">
-                    <Link className="Title" to="Part 1" smooth={true} duration={500}>
+                    <Link className="Title" to="part1" smooth={true} duration={500}>
                         <h2>1 : Known yourself</h2>
                     </Link>
 

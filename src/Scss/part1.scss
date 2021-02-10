@@ -15,6 +15,9 @@
     .paragraph{
       padding-top: 5em;
       padding-bottom: 0em;
+      .line{
+        border-color: #747C86;
+      }
     }
     &.invert{
       flex-direction: row-reverse;
