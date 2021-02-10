@@ -1,8 +1,7 @@
 import React , { Component} from "react";
-import {Nav} from "../Data2/navbarcontent"
 import {Link} from 'react-scroll';
 
-const Navbar = () =>{
+const Navbar = (props) =>{
 
 
     const [BurgerActive, setBurgerActive] = React.useState(false)
@@ -30,7 +29,7 @@ const Navbar = () =>{
                 </a>
 
                 <div className="header_links hide_for_mobile">
-                    {Nav.Content.map((item,index) => {
+                    {props.Data.Content.map((item,index) => {
                         return(
                             <a href={item.url} key={index} >
                                 <Link  to={item.url} smooth={true} duration={500}>
@@ -43,7 +42,7 @@ const Navbar = () =>{
             </nav>
 
             <div className={BurgerActive ? "header_menu hide_for_desktop": "header_menu has-fade"} type="button" onClick={Burger}>
-                {Nav.Content.map((item,index) => {
+                {props.Data.Content.map((item,index) => {
                     return(
                         <a href={item.url} key={index} onClick={DisactiveBurger}>
                             <Link  to={item.url} smooth={true} duration={500} onClick={DisactiveBurger}>

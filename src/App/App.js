@@ -6,17 +6,29 @@ import Summary from "../Summary/Summary";
 import Part1 from "../Parts/Part1";
 import Example from "../Parts/Example";
 import Part2 from "../Parts/Part2";
+import {part1} from "../Data2/part1content"
+import {Data} from '../Data2/data'
+import {Nav} from "../Data2/navbarcontent"
+import {examples} from "../Data2/part2content"
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-        <Navbar/>
-        <Landing/>
+        <Navbar
+        Data={Nav}/>
+        <Landing
+        Data={Data}/>
         <Summary/>
-        <Part1/>
+        <Part1
+        part1={part1}
+        Data={Data}/>
         <Part2/>
-        <Example/>
-        <Personnalise/>
+        <Example
+            examples={examples}
+            Data={Data}/>
+        <Personnalise
+            Data={Data}/>
     </div>
   );
 }

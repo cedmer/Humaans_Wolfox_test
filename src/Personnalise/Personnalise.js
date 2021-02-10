@@ -1,8 +1,6 @@
 import React , {useState} from "react";
-import {Data} from '../Data2/data'
 
-
-const Personnalise = () =>{
+const Personnalise = (props) =>{
 
     //states variable for the head
     const [random_head, set_randomhead] = useState(10);
@@ -71,20 +69,20 @@ const Personnalise = () =>{
     //     }
     // }
 
-    const verifBody =[Data.Bottom[random_bottom].csshead, //if the bottom is standing change margin left to put the head to the right : className = standing_head
-        Data.Bottom[random_bottom].cssbody,//if the bottom is standing change margin top to bring the body to the bottom
-        Data.Body[random_body].csshead,//if the coat is long change margin top to bring the head to the body
-        Data.Head[random_head].csshead]//if the head is long change margin top to bring the head to the body
+    const verifBody =[props.Data.Bottom[random_bottom].csshead, //if the bottom is standing change margin left to put the head to the right : className = standing_head
+        props.Data.Bottom[random_bottom].cssbody,//if the bottom is standing change margin top to bring the body to the bottom
+        props.Data.Body[random_body].csshead,//if the coat is long change margin top to bring the head to the body
+        props.Data.Head[random_head].csshead]//if the head is long change margin top to bring the head to the body
 
-    const verifBody2 =[Data.Bottom[random_bottom2].csshead,
-        Data.Bottom[random_bottom2].cssbody,
-        Data.Body[random_body2].csshead,
-        Data.Head[random_head2].csshead]
+    const verifBody2 =[props.Data.Bottom[random_bottom2].csshead,
+        props.Data.Bottom[random_bottom2].cssbody,
+        props.Data.Body[random_body2].csshead,
+        props.Data.Head[random_head2].csshead]
 
-    const verifBody3 =[Data.Bottom[random_bottom3].csshead,
-        Data.Bottom[random_bottom3].cssbody,
-        Data.Body[random_body3].csshead,
-        Data.Head[random_head3].csshead]
+    const verifBody3 =[props.Data.Bottom[random_bottom3].csshead,
+        props.Data.Bottom[random_bottom3].cssbody,
+        props.Data.Body[random_body3].csshead,
+        props.Data.Head[random_head3].csshead]
 
     return(
             <div className="personalise">
@@ -93,19 +91,19 @@ const Personnalise = () =>{
                 <div className="human_container">
                     <div className="circle"></div>
                         <div className="human">
-                            <img className={"human_head "+verifBody[0]+ " " +verifBody[3]} src={require(`../Personnalise/img/Head/Front/svg/${Data.Head[random_head].pathname}`).default} alt="SVG"/>
-                            <img className={"human_body "+verifBody[1]+" "+verifBody[2]} src={require(`../Personnalise/img/Body/svg/${Data.Body[random_body].pathname}`).default} alt="SVG"/>
-                            <img className="human_bottom" src={require(`../Personnalise/img/Bottom/${Data.Bottom[random_bottom].position}/svg/${Data.Bottom[random_bottom].pathname}`).default} alt="SVG"/>
+                            <img className={"human_head "+verifBody[0]+ " " +verifBody[3]} src={require(`../Personnalise/img/Head/Front/svg/${props.Data.Head[random_head].pathname}`).default} alt="SVG"/>
+                            <img className={"human_body "+verifBody[1]+" "+verifBody[2]} src={require(`../Personnalise/img/Body/svg/${props.Data.Body[random_body].pathname}`).default} alt="SVG"/>
+                            <img className="human_bottom" src={require(`../Personnalise/img/Bottom/${props.Data.Bottom[random_bottom].position}/svg/${props.Data.Bottom[random_bottom].pathname}`).default} alt="SVG"/>
                         </div>
                         <div className="human">
-                            <img className={"human_head "+verifBody2[0]+ " " +verifBody2[3]} src={require(`../Personnalise/img/Head/Front/svg/${Data.Head[random_head2].pathname}`).default} alt="SVG"/>
-                            <img className={"human_body "+verifBody2[1]+" "+verifBody2[2]} src={require(`../Personnalise/img/Body/svg/${Data.Body[random_body2].pathname}`).default} alt="SVG"/>
-                            <img className="human_bottom" src={require(`../Personnalise/img/Bottom/${Data.Bottom[random_bottom2].position}/svg/${Data.Bottom[random_bottom2].pathname}`).default} alt="SVG"/>
+                            <img className={"human_head "+verifBody2[0]+ " " +verifBody2[3]} src={require(`../Personnalise/img/Head/Front/svg/${props.Data.Head[random_head2].pathname}`).default} alt="SVG"/>
+                            <img className={"human_body "+verifBody2[1]+" "+verifBody2[2]} src={require(`../Personnalise/img/Body/svg/${props.Data.Body[random_body2].pathname}`).default} alt="SVG"/>
+                            <img className="human_bottom" src={require(`../Personnalise/img/Bottom/${props.Data.Bottom[random_bottom2].position}/svg/${props.Data.Bottom[random_bottom2].pathname}`).default} alt="SVG"/>
                         </div>
                         <div className="human">
-                            <img className={"human_head "+verifBody3[0]+ " " +verifBody3[3]} src={require(`../Personnalise/img/Head/Front/svg/${Data.Head[random_head3].pathname}`).default} alt="SVG"/>
-                            <img className={"human_body "+verifBody3[1]+" "+verifBody3[2]} src={require(`../Personnalise/img/Body/svg/${Data.Body[random_body3].pathname}`).default} alt="SVG"/>
-                            <img className="human_bottom" src={require(`../Personnalise/img/Bottom/${Data.Bottom[random_bottom3].position}/svg/${Data.Bottom[random_bottom3].pathname}`).default} alt="SVG"/>
+                            <img className={"human_head "+verifBody3[0]+ " " +verifBody3[3]} src={require(`../Personnalise/img/Head/Front/svg/${props.Data.Head[random_head3].pathname}`).default} alt="SVG"/>
+                            <img className={"human_body "+verifBody3[1]+" "+verifBody3[2]} src={require(`../Personnalise/img/Body/svg/${props.Data.Body[random_body3].pathname}`).default} alt="SVG"/>
+                            <img className="human_bottom" src={require(`../Personnalise/img/Bottom/${props.Data.Bottom[random_bottom3].position}/svg/${props.Data.Bottom[random_bottom3].pathname}`).default} alt="SVG"/>
                         </div>
 
                 </div>

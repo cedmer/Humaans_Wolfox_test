@@ -1,7 +1,7 @@
 import React , {} from "react";
 import {Data} from "../Data2/data"
 
-const Landing = () =>{
+const Landing = (props) =>{
 
     return(
             <div className="landing" >
@@ -10,9 +10,9 @@ const Landing = () =>{
                 </div>
                 <div className="human_text_container">
                     <div className="human">
-                        <img className={"human_head "} src={require(`../Personnalise/img/Head/Front/svg/${Data.Head[3].pathname}`).default} alt="SVG"/>
-                        <img className={"human_body "} src={require(`../Personnalise/img/Body/svg/${Data.Body[4].pathname}`).default} alt="SVG"/>
-                        <img className="human_bottom" src={require(`../Personnalise/img/Bottom/${Data.Bottom[10].position}/svg/${Data.Bottom[10].pathname}`).default} alt="SVG"/>
+                        <img className={"human_head "} src={require(`../Personnalise/img/Head/Front/svg/${props.Data.Head[3].pathname}`).default} alt="SVG"/>
+                        <img className={"human_body "} src={require(`../Personnalise/img/Body/svg/${props.Data.Body[4].pathname}`).default} alt="SVG"/>
+                        <img className="human_bottom" src={require(`../Personnalise/img/Bottom/${props.Data.Bottom[10].position}/svg/${props.Data.Bottom[10].pathname}`).default} alt="SVG"/>
                     </div>
                     <div className="paragraph">
                         <h2>Find an outfit that suits you</h2>

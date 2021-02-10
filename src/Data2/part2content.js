@@ -1,4 +1,4 @@
-export let example = {
+export let examples = {
   Content :[
     {
       text:"Hoodie",

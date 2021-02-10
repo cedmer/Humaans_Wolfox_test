@@ -14,7 +14,7 @@ const Summary = () =>{
 
                 </div>
                 <div className="Part">
-                    <Link className="Title" to="Part 2" smooth={true} duration={500} >
+                    <Link className="Title" to="part2" smooth={true} duration={500} >
                         <h2>2 : Picking things that you like</h2>
                     </Link>
 
