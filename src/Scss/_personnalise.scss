@@ -28,10 +28,10 @@
     }
 
     .human {
-      display: flex;
+      display: inline;
       flex-direction: column;
-      height: 18.75rem;
-      width: 18.75rem;
+      height: 19rem;
+      width: 19rem;
       padding-bottom: 8em;
       position: relative;
       margin: 1rem;
@@ -39,15 +39,15 @@
       &_head {
         height: 45.3%;
         width: 43.5%;
-        padding-left: 3.45em;
+        margin-bottom: -1em;
       }
 
       &_body {
         position: relative;
         height: 85.33%;
-        width: 78.2%;
-        margin-bottom: -11em;
-        margin-top: -5.5em;
+        width: 78%;
+        margin-bottom: -170px;
+        margin-top: -83px;
       }
 
       &_bottom {
@@ -58,20 +58,21 @@
 
       //change style for the body
       .standing_body{
-        width: 100%;
+        width: 95%;
         margin-top: -3.5em;
+
       }
       .long_coat{
-        margin-top: -2.5em;
+        margin-top: -2.25em;
       }
       //change style for the body
 
       //change style for the head
       .standing_head {
-        padding-left: 5.45em;
+        margin-bottom: -0.75em;
       }
       .long_head{
-        margin-bottom: -0.5em;
+        margin-bottom: -1.5em;
       }
       //change style for the head
 
