@@ -94,65 +94,77 @@ export let Data = {
       pathname: "Baggy Pants.svg",
       position : "Standing",
       cssbody: "standing_body",
-      csshead : "standing_head"
+      csshead : "standing_head",
+      csshead2 : "_standing"
     },
     {
       pathname: "Jogging.svg",
       position : "Standing",
       cssbody: "standing_body",
-      csshead : "standing_head"
+      csshead : "standing_head",
+      csshead2 : "_standing"
     },
     {
       pathname: "Shorts.svg",
       position: "Standing",
       cssbody : "standing_body",
-      csshead : "standing_head"
+      csshead : "standing_head",
+      csshead2 : "_standing"
     },
     {
       pathname: "Skinny Jeans.svg",
       position : "Standing",
       cssbody : "standing_body",
-      csshead : "standing_head"
+      csshead : "standing_head",
+      csshead2 : "_standing"
     },
     {
       pathname: "Skinny Jeans Walk.svg",
       position : "Standing",
       cssbody : "standing_body",
-      csshead : "standing_head"
+      csshead : "standing_head",
+      csshead2 : "_standing"
     },
     {
       pathname: "Skirt.svg",
       position : "Standing",
       cssbody : "standing_body",
-      csshead : "standing_head"
+      csshead : "standing_head",
+      csshead2 : "_standing"
     },
     {
       pathname: "Sprint.svg",
       position : "Standing",
       cssbody : "standing_body",
-      csshead : "standing_head"
+      csshead : "standing_head",
+      csshead2 : "_standing"
     },
     {
       pathname: "Sweatpants.svg",
       position : "Standing",
       cssbody : "standing_body",
-      csshead: "standing_head"
+      csshead: "standing_head",
+      csshead2 : "_standing"
     },
     {
       pathname: "Baggy Pants.svg",
-      position : "Sitting"
+      position : "Sitting",
+      csshead2 : ""
     },
     {
       pathname: "Skinny Jeans 1.svg",
-      position : "Sitting"
+      position : "Sitting",
+      csshead2 : ""
     },
     {
       pathname: "Sweat Pants.svg",
-      position : "Sitting"
+      position : "Sitting",
+      csshead2 : ""
     },
     {
       pathname: "Wheelchair.svg",
-      position : "Sitting"
+      position : "Sitting",
+      csshead2 : ""
     }
   ]
 }

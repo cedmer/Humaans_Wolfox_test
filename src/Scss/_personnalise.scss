@@ -39,15 +39,17 @@
       &_head {
         height: 45.3%;
         width: 43.5%;
-        margin-bottom: -1em;
+        margin-bottom: -1.5em;
+        margin-right: 2em;
       }
 
       &_body {
         position: relative;
         height: 85.33%;
         width: 78%;
-        margin-bottom: -170px;
-        margin-top: -83px;
+        margin-bottom: -11.5em;
+        margin-top: -5em;
+        margin-right: 2em;
       }
 
       &_bottom {
@@ -60,19 +62,28 @@
       .standing_body{
         width: 95%;
         margin-top: -3.5em;
-
+        margin-right: -0.5em;
       }
       .long_coat{
-        margin-top: -2.25em;
+        margin-bottom: -13em;
+        margin-right: 2.5em;
       }
       //change style for the body
 
       //change style for the head
       .standing_head {
         margin-bottom: -0.75em;
+        margin-right: -0.75em;
       }
       .long_head{
-        margin-bottom: -1.5em;
+        margin-bottom: -1.75em;
+      }
+      .long_coat_head{
+        margin-bottom: -2em;
+        margin-right: 2.5em;
+      }
+      .long_coat_head_standing{
+        margin-right: 0.5em;
       }
       //change style for the head
 
