@@ -3,7 +3,7 @@ import {Link} from 'react-scroll';
 
 const Navbar = (props) =>{
 
-
+    //state to active or desactive the burgermenu
     const [BurgerActive, setBurgerActive] = React.useState(false)
 
     const Burger = () => {

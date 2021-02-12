@@ -20,7 +20,7 @@ const Summary = () =>{
 
                 </div>
                 <div className="Part">
-                    <Link className="Title" to="Part 3" smooth={true} duration={500} >
+                    <Link className="Title" to="part3" smooth={true} duration={500} >
                         <h2>3 : Build your Wardrobe</h2>
                     </Link>
                 </div>

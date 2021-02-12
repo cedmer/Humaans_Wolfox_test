@@ -3,11 +3,11 @@ import React  from "react";
 const Part1 = (props) =>{
 
     return(
-        <div className="part1" >
+        <div className={props.part.Part.link+ " part"} >
             <div className="title_container">
-                <h1>1 : Known yourself</h1>
+                <h1>{props.part.Part[0].title}</h1>
             </div>
-            {props.part1.Content.map((item) => {
+            {props.part.Content.map((item) => {
                 return(
 
                     <div className={"human_text_container"+" "+ item.position}>
@@ -16,7 +16,7 @@ const Part1 = (props) =>{
                             <img className={"human_body "} src={require(`../Personnalise/img/Body/svg/${props.Data.Body[item.body].pathname}`).default} alt="SVG"/>
                             <img className="human_bottom" src={require(`../Personnalise/img/Bottom/${props.Data.Bottom[item.bottom].position}/svg/${props.Data.Bottom[item.bottom].pathname}`).default} alt="SVG"/>
                         </div>
-                        <div className="paragraph">
+                        <div className={"paragraph "+ item.margin}>
                             <h2>{item.title}</h2>
                             <div className="line"></div>
                             <p>{item.text}</p>

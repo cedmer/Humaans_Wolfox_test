@@ -1,4 +1,4 @@
-.part1 {
+.part {
   padding: 1em;
   background-image: url("../Parts/img/Vector 2.svg");
   background-repeat:no-repeat;
@@ -14,16 +14,21 @@
   .human_text_container {
     .paragraph{
       padding-top: 5em;
-      padding-bottom: 0em;
+      padding-bottom: 5em;
       .line{
         border-color: #747C86;
       }
+
+    }
+    .margin{
+      padding-top: 5em;
+      margin-bottom: 13em;
     }
     &.invert{
       flex-direction: row-reverse;
     }
     .human {
-
+      margin-top: -3em;
       &_head {
         height: 45.3%;
         width: 43.5%;

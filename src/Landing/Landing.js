@@ -1,5 +1,4 @@
 import React , {} from "react";
-import {Data} from "../Data2/data"
 
 const Landing = (props) =>{
 

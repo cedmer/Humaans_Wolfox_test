@@ -7,6 +7,7 @@ import Part1 from "../Parts/Part1";
 import Example from "../Parts/Example";
 import Part2 from "../Parts/Part2";
 import {part1} from "../Data2/part1content"
+import {part3} from "../Data2/part3content"
 import {Data} from '../Data2/data'
 import {Nav} from "../Data2/navbarcontent"
 import {examples} from "../Data2/part2content"
@@ -21,13 +22,16 @@ function App() {
         Data={Data}/>
         <Summary/>
         <Part1
-        part1={part1}
+        part={part1}
         Data={Data}/>
         <Part2/>
         <Example
             examples={examples}
             Data={Data}/>
         <Personnalise
+            Data={Data}/>
+        <Part1
+            part={part3}
             Data={Data}/>
     </div>
   );

@@ -12,13 +12,13 @@
       padding: 1.5rem;
       margin:  3.3rem;
       border-radius: 10px;
-      background: linear-gradient(90deg, #109FE6 50%, rgba(255, 255, 255, 0) 100%);
+      background: $blue;
 
       .Title{
         color: white;
 
         &:hover{
-          color: black;
+          color:darkgray;
         }
       }
       h2{
