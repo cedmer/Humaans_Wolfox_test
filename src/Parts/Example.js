@@ -8,10 +8,10 @@ const Example = (props) =>{
                 <h1>Some example of tops</h1>
             </div>
             <div className="cards">
-            {props.examples.Content.map((item) => {
+            {props.examples.Content.map((item,index) => {
                 return(
 
-                        <div className="card">
+                        <div className="card" key={index}>
                             <div className="human_container">
                                 <img className={"human_body "} src={require(`../Personnalise/img/Body/svg/${props.Data.Body[item.body].pathname}`).default} alt="SVG"/>
                             </div>

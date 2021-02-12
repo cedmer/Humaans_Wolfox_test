@@ -108,9 +108,9 @@ const Personnalise = (props) =>{
             <h2>Change the hairdos, tops and pants</h2>
             <div className="human_container">
                 <div className="circle"></div>
-                {Humans.map((item) => {
+                {Humans.map((item,index) => {
                     return(
-                        <div className="human">
+                        <div className="human" key={index}>
                             <img className={"human_head "+item.verifBody.standing_head+ " " +item.verifBody.long_head+" "//verif if legs standing and if long head
                                  +item.verifBody.long_coat+"_head"+item.verifBody.long_coat_head} // verif long coat and head if the person is standing or not
                                  src={require(`../Personnalise/img/Head/Front/svg/${props.Data.Head[item.head].pathname}`).default} alt="SVG"/>
